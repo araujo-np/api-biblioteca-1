@@ -118,4 +118,3 @@ def excluir_livro(id: int, db: Session = Depends(get_db)):
     db.commit()
     return {"mensagem": "Livro removido com sucesso!"}
 
-#teste
